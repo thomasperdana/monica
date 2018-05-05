@@ -30,6 +30,10 @@ Vue.use(Tooltip);
 import ToggleButton from 'vue-js-toggle-button';
 Vue.use(ToggleButton);
 
+// Fancy select with typeahead
+import vSelect from 'vue-select';
+Vue.use('v-select', vSelect);
+
 // Radio buttons
 import PrettyCheckbox from 'pretty-checkbox-vue';
 Vue.use(PrettyCheckbox);
